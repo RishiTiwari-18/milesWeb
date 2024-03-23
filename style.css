@@ -13,33 +13,111 @@ html,
 body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     font-family: font;
 }
 
 .main {
     width: 100%;
+    text-transform: capitalize;
 
 }
 
+.fixed {
+    padding: 0 3vw;
+    padding-top: 10vw;
+    position: fixed;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    top: -100%;
+    background-color: #fff;
+}
+
+
+.hosting-page {
+    z-index: 10;
+}
+
+.about-page {
+    z-index: 10;
+}
+
+.vps-page {
+    z-index: 10;
+}
+
+
+.fixed h1 {
+    font-size: 2vw;
+    margin: 2vw 0vw;
+    color: #118ae1;
+}
+
+.fixed h2 {
+    font-size: 1.5vw;
+    width: max-content;
+    font-weight: 100;
+    margin: 1.5vw 0vw;
+    color: #767676;
+    transition: ease-out .2s;
+}
+
+.fixed h3 {
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+
+.fixed h4 {
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #767676;
+    margin: 2vw 0vw;
+}
+
+.fixed h2:hover {
+    margin-left: 1.5vw;
+    color: #61b3dc;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-right {
+    width: 50%;
+}
+
+.right {
+    width: 40%;
+    padding-left: 10vw;
+}
+
+.right button {
+    font-size: 1.1vw;
+    margin: 0;
+}
+
 .nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1vw 2vw;
-    padding-right: 0;
-
+    background-color: #fff;
 }
 
 .nav img {
-    width: 80%;
+    width: 75%;
 }
 
 .nav-content {
-    right: -50%;
-    position: absolute;
-    display: inline-block;
-    transition: .4s linear;
+    display: flex;
+    align-items: center;
+
 }
 
 .nav-content a {
@@ -56,22 +134,15 @@ body {
 }
 
 .nav-button {
-    background-color: #fff;
-    z-index: 9;
-    padding-right: 2vw;
-
-}
-
-#nav-button i {
-    transition: .1s linear;
-
+    margin-left: 1vw;
 }
 
 button {
-    padding: .5vw 1vw;
+    padding: .8vw 1.2vw;
     border: none;
     margin-left: .5vw;
     border-radius: 10px;
+    text-transform: capitalize;
 }
 
 button:hover {
@@ -79,111 +150,65 @@ button:hover {
     color: #fff;
 }
 
+
+
 .banner-main {
-    background-color: #346AF5;
     width: 100%;
-    height: 63%;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 500;
+    height: 100vh;
+    color: #fff;
+    background-color: #346AF5;
+    z-index: 1;
+    padding: 10vw;
 }
 
+
 .content-1 {
-    font-weight: 500;
-    font-size: 18px;
-    padding-top: 35px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    letter-spacing: 2px;
+    font-size: 1.8vw;
+    font-weight: 100;
+    margin-bottom: 2vw;
 }
 
 .content-2 {
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 1;
-    color: #fff;
-    letter-spacing: 0.01em;
-    max-width: 670px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
+    font-size: 3vw;
+    margin-bottom: 2vw;
 }
 
 .guarantee {
-    max-width: 690px;
-    padding: 18px;
-    padding-left: 70px;
-    font-size: 13px;
-    padding-left: 8px !important;
+    font-size: 15px;
+    margin-bottom: 3vw;
     box-sizing: border-box;
     font-family: 'Open Sans', Arial;
 }
 
-.mil-img {
-    max-width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
-    font-size: 15px;
-    font-weight: 400;
-    padding-left: 10px;
-}
+
 
 .mil-img-div {
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
 }
 
-.img-text {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 22px;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
-}
 
 .mil-img-text {
     font-size: 20px;
-    font-weight: 600;
     line-height: 1.4;
-    text-align: left;
     padding-right: 28px;
     padding-left: 10px;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
-
 }
 
 .banner-main-img {
-    padding: 35px;
     width: 40%;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
+    margin-left: 3vw;
 }
 
 .banner-body {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
-    overflow: hidden;
 }
 
 .footer-img {
     font-size: 15px;
     font-weight: 300;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
 }
 
 .fire-text {
@@ -192,12 +217,10 @@ button:hover {
     flex-wrap: wrap;
     font-size: 15px;
     font-weight: 400;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
 }
 
 .banner-content {
-    width: 60%;
+    width: 55%;
 }
 
 .fire-img-text {
@@ -205,22 +228,15 @@ button:hover {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4;
-    text-align: left;
-    box-sizing: border-box;
     font-family: 'Open Sans', Arial;
 }
 
 .outer-btn {
-    padding-left: 10px;
     margin-top: 60px;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial;
 }
 
 .inner-btn {
-    position: relative;
     display: inline-block;
-    margin-right: 24px;
 }
 
 .btn-main {
@@ -231,24 +247,13 @@ button:hover {
     font-size: 20px;
     background-color: #1dffff;
     border-radius: 10px;
-    position: relative;
     display: inline-block;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
 }
 
 .btn-footer {
     color: #fff;
-    padding: 18px 0 0 0;
-    padding-top: 18px;
-    padding-left: 0px;
-    line-height: 1.5;
-    max-width: 577px;
     font-size: 13px;
-    padding-left: 8px !important;
-    font-weight: 300;
-    padding-top: 15px;
-    text-align: center;
+    margin-top: 1vw;
 }
 
 .banner-img {
