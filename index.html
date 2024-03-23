@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>milesWeb</title>
 </head>
 <body>
-    <div class="nav-main">
-        <label for="logo"><img src="mw-logo.png"></label><button class="btn" name="logo"></button>
-        <ul class="mw-ul">
-        <li><label for="wpd">WordPress</label><button class="btn" name="wpd"></button></li>
-        <li><label for="hnd">Hosting & Domains</label><button class="btn" name="hnd"></button></li>
-        <li><label for="vnd">VPS & Dedicated</label><button class="btn" name="vnd"></button></li>
-        <li><label for="abt">About</label><button class="btn" name="abt"></button></li>
-        <li><label for="aff">Affiliates</label><button class="btn" name="aff"></button></li>
-        </ul>
-        <label for="lgn">Login</label><button class="btn" name="lgn"></button>
-        <label for="sales">About</label><button class="btn" name="sales"></button>
+    <div class="main">
+        <div class="nav">
+            <div class="logo"><img src="/mw-logo.png" alt=""></div>
+
+        <div class="nav-content">
+            <a href="#">Wordpress</a>
+            <a href="#">Hosting & Domains</a>
+            <a href="#">VPS & Dedicated</a>
+            <a href="#">About</a>
+            <a href="#">Affiliates</a>
+        </div>
+
+            <div class="nav-button">
+            <button id="nav-button"><i class="fa-solid fa-angle-left"></i></button>
+            <button>Login</button>
+            <button>Lets Talk</button>
+            </div>
+        </div>
     </div>
+
+
     
     <script src="script.js"></script>
 </body>

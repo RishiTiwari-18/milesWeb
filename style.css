@@ -1,3 +1,8 @@
+@font-face {
+    font-family: font;
+    src: url(/matter-regular.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,18 +12,67 @@
 html, body{
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    font-family: font;
 }
-nav-main{
+
+.main{
     width: 100%;
-    background-color: white;
+   
 }
-.btn{
-    display: none;
-}
-.mw-ul {
+
+.nav{
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    padding-right: 0;
+
+}
+
+.nav img{
+    width: 80%;
+}
+
+.nav-content{
+    right: -50%;
+    position: absolute;
+    display: inline-block;
+    transition: .4s linear;
+}
+.nav-content a{
+    text-decoration: none;
+    color: rgb(27, 25, 25);
+    font-size: 16px;
+    padding: .8vw 1vw;
+    border-radius: 5px;
+}
+
+.nav-content a:hover{
+    background-color: #E7F7FF;
+    color: #0435B2;
+}
+
+.nav-button{
+    background-color: #fff;
+    z-index: 9;
+    padding-right: 2vw;
+    
+}
+
+#nav-button i{
+    transition: .1s linear;
+
+}
+
+button{
+    padding: .5vw 1vw;
+    border: none;
+    margin-left: .5vw;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:#119ce1 ;
+    color: #fff;
 }
