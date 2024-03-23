@@ -17,20 +17,100 @@ html, body{
 
 .main{
     width: 100%;
+    text-transform: capitalize;
    
+}
+
+.fixed{
+    padding: 0 3vw;
+    padding-top: 10vw;
+    position: fixed;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    top: -100%;
+    background-color: #fff;
+}
+
+
+.hosting-page{
+    z-index: 10;
+}
+
+.about-page{
+    z-index: 10;
+}
+
+.vps-page{
+    z-index: 10;
+}
+
+
+.fixed h1{
+    font-size: 2vw;
+    margin: 2vw 0vw;
+    color: #118ae1;
+}
+
+.fixed h2{
+    font-size: 1.5vw;
+    width: max-content;
+    font-weight: 100;
+    margin: 1.5vw 0vw;
+    color: #767676;
+    transition: ease-out .2s;
+}
+
+.fixed h3{
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+
+.fixed h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #767676;
+    margin: 2vw 0vw;
+}
+
+.fixed h2:hover{
+    margin-left: 1.5vw;
+    color: #61b3dc;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-right{
+    width: 50%;
+}
+
+.right{
+    width: 40%;
+    padding-left: 10vw;
+}
+
+.right button{
+    font-size: 1.1vw;
+    margin: 0;
 }
 
 .nav{
     position: fixed;
+    z-index: 1000;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1vw 2vw;
+    background-color: #fff;
 }
 
 .nav img{
-    width: 80%;
+    width: 75%;
 }
 
 .nav-content{
@@ -60,9 +140,121 @@ button{
     border: none;
     margin-left: .5vw;
     border-radius: 10px;
+    text-transform: capitalize;
 }
 
 button:hover{
     background-color:#119ce1 ;
     color: #fff;
+}
+
+
+
+.banner-main {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: #346AF5;
+    z-index: 1;
+    padding: 10vw;
+}
+
+
+.content-1 {
+    font-size: 1.8vw;
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+
+.content-2 {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+.guarantee {
+    font-size: 15px;
+    margin-bottom: 3vw;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial;
+}
+
+
+
+.mil-img-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.mil-img-text {
+    font-size: 20px;
+    line-height: 1.4;
+    padding-right: 28px;
+    padding-left: 10px;
+}
+
+.banner-main-img {
+    width: 40%;
+    margin-left: 3vw;
+}
+
+.banner-body {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-img {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.fire-text {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.banner-content {
+    width: 55%;
+}
+
+.fire-img-text {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: 'Open Sans', Arial;
+}
+
+.outer-btn {
+    margin-top: 60px;
+}
+
+.inner-btn {
+    display: inline-block;
+}
+
+.btn-main {
+    color: #002d69;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #1dffff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.btn-footer {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 1vw;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
 }
