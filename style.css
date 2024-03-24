@@ -261,6 +261,77 @@ button:hover {
     width: 100%;
 }
 
+
+.hosting-plans{
+    min-height: 100vh;
+    width: 100%;
+    padding: 5vw 10vw;
+}
+
+.plans-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plans-cards{
+    position: relative;
+    width: 30%;
+    height: 38vw;
+    padding: 2vw;
+    border: 1px solid rgba(17, 156, 225, 0.271);
+    border-radius: 30px;
+}
+
+.plans-cards:hover{
+    box-shadow: rgba(17, 156, 225, 0.271) 0px 5px 15px 0px;
+    transition: all .2s linear;
+
+}
+
+.plans-cards h1{
+    color: #118ae1;
+    font-size: 25px;
+    margin: 1.5vw 0;
+}
+
+.plans-cards h3{
+    font-size: 18px;
+    font-weight: 100;
+    color: #767676;
+    margin-bottom: 2vw;
+}
+
+.plans-cards p{
+    position: relative;
+    line-height: 30px;
+    margin-left: 1vw;
+}
+
+.plans-cards p::before{
+    content: " ";
+    clip-path: polygon(0 0, 30% 50%, 0 100%, 50% 70%, 100% 100%, 70% 50%, 100% 0, 50% 30%);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #118ae1;
+    position: absolute;
+    left:-5% ;
+    top: 35%;
+}
+
+.plans-cards button{
+    margin: 2vw 0;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+
 .bodywrap {
     width: 100%;
     padding-top: 1vw;
