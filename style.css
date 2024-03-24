@@ -260,3 +260,126 @@ button:hover {
     height: 100%;
     width: 100%;
 }
+
+.bodywrap {
+    width: 100%;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.plans-main {
+    width: 100%;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.headers {
+    display: contents;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+.header,
+.data {
+    font-size: max(1rem, min(.517799vw + .878641rem, 1.5rem));
+    gap: .5rem;
+    letter-spacing: -.01em;
+    line-height: 1.2;
+    min-width: 10rem;
+    left: 0;
+    justify-content: flex-start;
+    padding: 2rem;
+    display: flex;
+    border-bottom: .0625rem solid#65B5E2;
+}
+
+
+.plan-table {
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    box-shadow: #767676;
+    box-sizing: border-box;
+}
+
+tbody {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.plan-table td,
+.plan-table th {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.plan-table th:first-child,
+.plan-table td:first-child {
+    background-color: white;
+    justify-content: flex-start;
+    left: 0;
+    min-width: 10rem;
+    padding-left: 0;
+    position: sticky;
+    text-align: left;
+}
+
+
+table th:nth-child(2n),
+table td:nth-child(2n) {
+    background-color: #D5FAFF;
+}
+
+.money {
+    font-size: 48px;
+    margin: 0 3px;
+    line-height: .8;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.mo {
+    font-size: 20px;
+    margin: 0 3px;
+    line-height: .8;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-transform: lowercase;
+}
+
+.bnr {
+    font-size: 20px;
+    margin: 0 3px;
+    line-height: .8;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #F9894A;
+}
+
+.atoc {
+    display: block;
+    font-size: 18px;
+    padding: 13px 15px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    background: #2569ce;
+    border-radius: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial;
+}
