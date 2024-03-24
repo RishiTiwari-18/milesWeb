@@ -382,4 +382,5 @@ table td:nth-child(2n) {
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Open Sans', Arial;
+    cursor: pointer;
 }
