@@ -344,6 +344,7 @@ button:hover {
     padding-top: 2vw;
     padding-left: 3vw;
     padding-right: 3vw;
+    overflow-x: auto;
 }
 
 .headers {
