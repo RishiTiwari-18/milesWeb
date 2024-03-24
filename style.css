@@ -3,25 +3,26 @@
     src: url(/matter-regular.woff2);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: font;
 }
 
-.main{
+.main {
     width: 100%;
     text-transform: capitalize;
-   
+
 }
 
-.fixed{
+.fixed {
     padding: 0 3vw;
     padding-top: 10vw;
     position: fixed;
@@ -33,26 +34,26 @@ html, body{
 }
 
 
-.hosting-page{
+.hosting-page {
     z-index: 10;
 }
 
-.about-page{
+.about-page {
     z-index: 10;
 }
 
-.vps-page{
+.vps-page {
     z-index: 10;
 }
 
 
-.fixed h1{
+.fixed h1 {
     font-size: 2vw;
     margin: 2vw 0vw;
     color: #118ae1;
 }
 
-.fixed h2{
+.fixed h2 {
     font-size: 1.5vw;
     width: max-content;
     font-weight: 100;
@@ -61,44 +62,44 @@ html, body{
     transition: ease-out .2s;
 }
 
-.fixed h3{
+.fixed h3 {
     font-size: 2.5vw;
     font-weight: 100;
 }
 
-.fixed h4{
+.fixed h4 {
     font-size: 1.3vw;
     font-weight: 100;
     color: #767676;
     margin: 2vw 0vw;
 }
 
-.fixed h2:hover{
+.fixed h2:hover {
     margin-left: 1.5vw;
     color: #61b3dc;
 }
 
-.left{
+.left {
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
 
-.left-right{
+.left-right {
     width: 50%;
 }
 
-.right{
+.right {
     width: 40%;
     padding-left: 10vw;
 }
 
-.right button{
+.right button {
     font-size: 1.1vw;
     margin: 0;
 }
 
-.nav{
+.nav {
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -109,16 +110,17 @@ html, body{
     background-color: #fff;
 }
 
-.nav img{
+.nav img {
     width: 75%;
 }
 
-.nav-content{
+.nav-content {
     display: flex;
     align-items: center;
 
 }
-.nav-content a{
+
+.nav-content a {
     text-decoration: none;
     color: rgb(27, 25, 25);
     font-size: 16px;
@@ -126,16 +128,16 @@ html, body{
     border-radius: 5px;
 }
 
-.nav-content a:hover{
+.nav-content a:hover {
     background-color: #E7F7FF;
     color: #0435B2;
 }
 
-.nav-button{
+.nav-button {
     margin-left: 1vw;
 }
 
-button{
+button {
     padding: .8vw 1.2vw;
     border: none;
     margin-left: .5vw;
@@ -143,8 +145,8 @@ button{
     text-transform: capitalize;
 }
 
-button:hover{
-    background-color:#119ce1 ;
+button:hover {
+    background-color: #119ce1;
     color: #fff;
 }
 
