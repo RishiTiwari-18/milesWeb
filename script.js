@@ -42,4 +42,8 @@ aboutBtn.addEventListener("click", openCard);
 
 
 
-
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3.5,
+    spaceBetween: 50,
+    centeredSlides: true,
+  });
