@@ -614,7 +614,7 @@ table td:nth-child(2n) {
     display: flex;
     justify-content: center;
     gap: 5vw;
-    padding: 3vw 0;
+    padding:  0;
 }
 
 .page5-right{
@@ -665,7 +665,7 @@ table td:nth-child(2n) {
 
 .page5-contact{
     text-align: center;
-    padding: 2vw;
+    padding: 0vw;
 }
 
 .page5-contact button{
@@ -677,7 +677,7 @@ table td:nth-child(2n) {
 }
 
 .page6{
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -698,6 +698,67 @@ table td:nth-child(2n) {
     color: #767676;
     font-weight: 100;
     line-height: 26px;
+}
+
+.page7{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 10vw;
+}
+
+.page7-cards{
+    width: 25%;
+    height: 45vh;
+    border: 1px solid rgba(137, 150, 157, 0.271);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px ;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.page7-cards:hover{
+    box-shadow: rgba(137, 150, 157, 0.271) 0px 5px 15px 0px;
+    transition: all .2s linear;
+}
+
+
+.page7-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.page7-box h3{
+    color: #353535;
+}
+
+.page7-box h4{
+    color: #767676;
+    font-weight: 100;
+}
+
+.page7 h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.page7 p{
+    width: 65%;
+    font-size: 1.2vw;
+    margin-bottom: 3vw;
+    line-height: 2vw;
+    text-align: center;
 }
 
 .partners-text{
