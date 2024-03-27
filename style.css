@@ -261,6 +261,98 @@ button:hover {
     width: 100%;
 }
 
+.review-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7vw  0;
+
+}
+
+.review-container h1{
+    font-size: 3vw;
+    color: #353535;
+    margin-top: 3vw;
+}
+
+.review-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #D4EBFF;
+    gap: 1px;
+}
+.review-box span{
+    padding: 40px 65px;
+    background-color: #f4f9fb;
+    text-align: center;
+}
+
+.review-box h2{
+    font-size: 2vw;
+    color: #545252;
+    margin-bottom: 6px;
+}
+
+.review-box h4{
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: #3f7edc;
+}
+
+.review-page{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.review-cards{
+    width: 25%;
+    border: 1px solid rgba(137, 150, 157, 0.271);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.review-cards h4{
+ margin-bottom: 15px;
+}
+
+.review-cards .review-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-middle{
+    padding: 35px 0;
+}
+
+.review-cards p{
+    color: #767676;
+    font-weight: 100;
+}
+
+.review-bottom{
+    padding-top: 15px;
+    border-top: 1px solid rgba(137, 150, 157, 0.271);
+
+}
+
+.review-bottom h5{
+    color: #767676;
+    font-weight: 100;
+}
+
+.review-top img{
+    width: 32%;
+}
+
+
 
 .hosting-plans{
     min-height: 100vh;
@@ -339,6 +431,13 @@ button:hover {
     padding-right: 1vw;
 }
 
+.plans-main h1{
+    text-align: center;
+    font-size: 3vw;
+    color: #353535;
+    margin-bottom: 8vw;
+}
+
 .plans-main {
     width: 100%;
     overflow-x: auto;
@@ -360,9 +459,10 @@ button:hover {
 
 .header,
 .data {
-    font-size: max(1rem, min(.517799vw + .878641rem, 1.5rem));
+    font-size: max(1rem, min(.417799vw + .878641rem, 1.5rem));
     gap: .5rem;
     letter-spacing: -.01em;
+    font-weight: 100;
     line-height: 1.2;
     min-width: 10rem;
     left: 0;
@@ -716,7 +816,7 @@ table td:nth-child(2n) {
     letter-spacing: .2px;
     word-spacing: 1.5px;
     text-align: center;
-    margin-bottom: 10vw;
+    margin-bottom: 8vw;
     width: 75%;
 }
 
