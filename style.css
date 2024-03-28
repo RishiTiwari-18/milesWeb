@@ -1019,3 +1019,33 @@ table td:nth-child(2n) {
     margin: 2vw 0;
 }
 
+.last-page{
+    background-color: #F5F9FF;
+    padding:1vw 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+}
+
+.last-page h1{
+    font-size: 40px;
+    color: #353535;
+    margin-bottom: 30px;
+}
+
+.last-page h3{
+    font-weight: 100;
+    color: #767676;
+    margin-bottom: 35px;
+}
+
+.last-page button i{
+    margin-right: 8px;
+}
+
+.last-page button{
+    font-size: 16px;
+    margin: 0;
+    margin-right: 10px;
+}
