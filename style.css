@@ -728,7 +728,6 @@ table td:nth-child(2n) {
     transition: all .2s linear;
 }
 
-
 .page7-box{
     display: flex;
     align-items: center;
@@ -744,6 +743,7 @@ table td:nth-child(2n) {
 .page7-box h4{
     color: #767676;
     font-weight: 100;
+    line-height: 20px;
 }
 
 .page7 h1{
@@ -761,6 +761,105 @@ table td:nth-child(2n) {
     text-align: center;
 }
 
+.page8{
+    min-height: 60vh;
+    padding: 10vw 11vw;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page8-left{
+    width: 50%;
+    margin-right: 3vw;
+}
+
+
+
+.page8 h1{
+    font-size: 2.6vw;
+    line-height: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+.page8 h3{
+    font-weight: 100;
+    margin-bottom: 2vw;
+    line-height: 25px;
+}
+
+
+.page8 img{
+    width: 95%;
+}
+
+
+.awards-page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 11vw;
+    padding-top: 0;
+}
+
+.awards-page-left{
+    width: 50%;
+}
+
+.awards-page-left h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #353535;
+}
+
+.awards-page-left h3{
+    font-weight: 100;
+    line-height: 30px;
+    color: #767676;
+    margin-bottom: 30px;
+}
+
+.awards-page-left a{
+    text-decoration: none;
+    color: #346AF5;
+    font-size: 18px;
+
+}
+
+.clients-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F9FF;
+    width: 100%;
+    gap: 5vw;
+    margin-bottom: 8vw;
+}
+
+.clients-page img{
+    width: 35%;
+}
+
+.clients-right{
+    width: 40%;
+}
+
+.clients-page h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #353535;
+}
+
+.clients-page h3{
+    font-weight: 100;
+    color: #767676;
+    line-height: 30px;
+}
+
 .partners-text{
     padding-left: 11vw;
     width: 50%;
@@ -770,10 +869,12 @@ table td:nth-child(2n) {
 .partners-text h1{
     font-size: 3vw;
     margin-bottom: 2vw;
+    color: #353535;
 }
 .partners-text h3{
     color:#767676;
     font-weight: 100;
+    line-height: 30px;
 }
 
 .loop{
