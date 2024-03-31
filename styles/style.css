@@ -1,6 +1,6 @@
 @font-face {
     font-family: font;
-    src: url(/matter-regular.woff2);
+    src: url(/assets/matter-regular.woff2);
 }
 
 * {
@@ -22,8 +22,8 @@ body {
 
 }
 
-.contact-page{
-    top:-100%;
+.contact-page {
+    top: -100%;
     z-index: 999;
     position: fixed;
     height: 100vh;
@@ -37,7 +37,9 @@ body {
 }
 
 
-input[type="text"], input[type="email"], input[type="tel"] {
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
     width: 100%;
     padding: 15px 10px;
     border: none;
@@ -62,11 +64,11 @@ input[type="submit"]:hover {
     color: #fff;
 }
 
-.contact-right{
+.contact-right {
     width: 40%;
 }
 
-.contact-left{
+.contact-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +77,7 @@ input[type="submit"]:hover {
     width: 35%;
 }
 
-.contact-left div{
+.contact-left div {
     position: absolute;
     top: 0;
     left: 0;
@@ -85,25 +87,25 @@ input[type="submit"]:hover {
     margin-top: 3.5vw;
 }
 
-.contact-left h1{
+.contact-left h1 {
     font-size: 45px;
     color: #353535;
     margin-bottom: 2.5vw;
 }
 
-.contact-left p{
+.contact-left p {
     color: #767676;
     font-size: 17px;
     line-height: 23px;
     margin-bottom: 2vw;
 }
 
-.contact-left h4{
- font-size: 17px;
- margin-bottom: 10px;
+.contact-left h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 
-.contact-left h2{
+.contact-left h2 {
     color: #119ce1;
 }
 
@@ -247,11 +249,20 @@ button:hover {
     padding: 10vw;
 }
 
+.banner-main-wordpress {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: #0832B2;
+    z-index: 1;
+    padding: 10vw;
+}
+
 
 .content-1 {
     font-size: 1.8vw;
     font-weight: 100;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .content-2 {
@@ -286,6 +297,11 @@ button:hover {
     margin-left: 3vw;
 }
 
+.banner-main-img-wordpress {
+    width: 40%;
+    margin-left: 3vw;
+}
+
 .banner-body {
     align-items: center;
     display: flex;
@@ -306,6 +322,10 @@ button:hover {
 }
 
 .banner-content {
+    width: 55%;
+}
+
+.banner-content-wordpress {
     width: 55%;
 }
 
@@ -347,21 +367,21 @@ button:hover {
     width: 100%;
 }
 
-.review-container{
+.review-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7vw  0;
+    padding: 7vw 0;
 
 }
 
-.review-container h1{
+.review-container h1 {
     font-size: 3vw;
     color: #353535;
     margin-top: 3vw;
 }
 
-.review-box{
+.review-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -370,25 +390,26 @@ button:hover {
     background-color: #D4EBFF;
     gap: 1px;
 }
-.review-box span{
+
+.review-box span {
     padding: 40px 65px;
     background-color: #f4f9fb;
     text-align: center;
 }
 
-.review-box h2{
+.review-box h2 {
     font-size: 2vw;
     color: #545252;
     margin-bottom: 6px;
 }
 
-.review-box h4{
+.review-box h4 {
     font-size: 1.2vw;
     font-weight: 100;
     color: #3f7edc;
 }
 
-.review-page{
+.review-page {
     height: 70vh;
     width: 100%;
     display: flex;
@@ -397,56 +418,56 @@ button:hover {
     gap: 30px;
 }
 
-.review-cards{
+.review-cards {
     width: 25%;
     border: 1px solid rgba(137, 150, 157, 0.271);
     padding: 20px;
     border-radius: 20px;
 }
 
-.review-cards h4{
- margin-bottom: 15px;
+.review-cards h4 {
+    margin-bottom: 15px;
 }
 
-.review-cards .review-top{
+.review-cards .review-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.review-middle{
+.review-middle {
     padding: 35px 0;
 }
 
-.review-cards p{
+.review-cards p {
     color: #767676;
     font-weight: 100;
 }
 
-.review-bottom{
+.review-bottom {
     padding-top: 15px;
     border-top: 1px solid rgba(137, 150, 157, 0.271);
 
 }
 
-.review-bottom h5{
+.review-bottom h5 {
     color: #767676;
     font-weight: 100;
 }
 
-.review-top img{
+.review-top img {
     width: 32%;
 }
 
 
 
-.hosting-plans{
+.hosting-plans {
     min-height: 100vh;
     width: 100%;
     padding: 5vw 10vw;
 }
 
-.plans-container{
+.plans-container {
     height: 100%;
     width: 100%;
     display: flex;
@@ -454,7 +475,7 @@ button:hover {
     justify-content: space-between;
 }
 
-.plans-cards{
+.plans-cards {
     position: relative;
     width: 30%;
     height: 38vw;
@@ -463,32 +484,32 @@ button:hover {
     border-radius: 30px;
 }
 
-.plans-cards:hover{
+.plans-cards:hover {
     box-shadow: rgba(17, 156, 225, 0.271) 0px 5px 15px 0px;
     transition: all .2s linear;
 
 }
 
-.plans-cards h1{
+.plans-cards h1 {
     color: #118ae1;
     font-size: 25px;
     margin: 1.5vw 0;
 }
 
-.plans-cards h3{
+.plans-cards h3 {
     font-size: 18px;
     font-weight: 100;
     color: #767676;
     margin-bottom: 2vw;
 }
 
-.plans-cards p{
+.plans-cards p {
     position: relative;
     line-height: 30px;
     margin-left: 1vw;
 }
 
-.plans-cards p::before{
+.plans-cards p::before {
     content: " ";
     clip-path: polygon(0 0, 30% 50%, 0 100%, 50% 70%, 100% 100%, 70% 50%, 100% 0, 50% 30%);
     height: 8px;
@@ -496,11 +517,11 @@ button:hover {
     border-radius: 50%;
     background-color: #118ae1;
     position: absolute;
-    left:-5% ;
+    left: -5%;
     top: 35%;
 }
 
-.plans-cards button{
+.plans-cards button {
     margin: 2vw 0;
     font-size: 16px;
     display: flex;
@@ -517,7 +538,7 @@ button:hover {
     padding-right: 1vw;
 }
 
-.plans-main h1{
+.plans-main h1 {
     text-align: center;
     font-size: 3vw;
     color: #353535;
@@ -636,12 +657,12 @@ table td:nth-child(2n) {
     border-radius: 10px;
 }
 
-.atoc:hover{
-    background-color:#fff;
+.atoc:hover {
+    background-color: #fff;
     color: #2569ce;
 }
 
-.page4{
+.page4 {
     height: 90vh;
     display: flex;
     align-items: center;
@@ -649,120 +670,120 @@ table td:nth-child(2n) {
     padding: 10vw;
 }
 
-.page4-left{
+.page4-left {
     width: 50%;
 }
 
-.page4 h1{
+.page4 h1 {
     font-size: 3vw;
     margin-bottom: 2vw;
     color: rgb(49, 48, 48);
 }
 
-.page4 h3{
+.page4 h3 {
     margin-bottom: 3vw;
     line-height: 25px;
     font-weight: 100;
     color: #767676;
 }
 
-.percentage{
+.percentage {
     display: flex;
     align-items: center;
 
 }
 
-.percentage span{
+.percentage span {
     font-size: 2.5vw;
     font-weight: bold;
     color: #346AF5;
 }
 
-.percentage p{
-     border-left:  1px solid black;
-     padding-left: 1vw;
-     margin-left: 1vw;
-     color: #767676;
+.percentage p {
+    border-left: 1px solid black;
+    padding-left: 1vw;
+    margin-left: 1vw;
+    color: #767676;
 }
 
-.page4-right{
+.page4-right {
     padding-left: 10vw;
 }
 
-.page5{
+.page5 {
     min-height: 70vh;
     width: 100%;
 }
 
-.page5-top{
+.page5-top {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 5vw;
-    padding:  0;
+    padding: 0;
 }
 
-.page5-right{
+.page5-right {
     width: 35%;
 }
 
-.page5 h1{
+.page5 h1 {
     font-size: 45px;
     margin-bottom: 1vw;
 }
 
-.page5 h3{
+.page5 h3 {
     font-size: 20px;
     font-weight: 100;
     line-height: 30px;
     color: #767676;
 }
 
-.page5-bottom{
+.page5-bottom {
     display: flex;
     justify-content: space-between;
     padding: 8vw 13vw;
 }
 
 
-.page5-cards{
+.page5-cards {
     width: 30%;
     padding: 2vw;
     border: 1px solid rgba(17, 156, 225, 0.271);
     border-radius: 20px;
 }
 
-.page5-cards h2{
+.page5-cards h2 {
     margin-bottom: 1.5vw;
     color: #119ce1;
 }
 
-.page5-cards p{
+.page5-cards p {
     line-height: 22px;
     color: #767676;
     font-size: 17px;
 }
 
-.page5-cards:hover{
+.page5-cards:hover {
     box-shadow: rgba(17, 156, 225, 0.271) 0px 5px 15px 0px;
     transition: all .2s linear;
 }
 
-.page5-contact{
+.page5-contact {
     text-align: center;
     padding: 0vw;
 }
 
-.page5-contact button{
+.page5-contact button {
     margin-top: 2.5vw;
     font-size: 18px;
     text-transform: initial;
     border-radius: 100px;
-    padding: 1vw 1.5vw ;
+    padding: 1vw 1.5vw;
 }
 
-.page6{
+.page6 {
     height: 80vh;
     width: 100%;
     display: flex;
@@ -770,23 +791,23 @@ table td:nth-child(2n) {
     justify-content: center;
 }
 
-.page6-left{
+.page6-left {
     width: 30%;
     margin-right: 5vw;
 }
 
-.page6-left h1{
+.page6-left h1 {
     font-size: 2.8vw;
     margin-bottom: 5vh;
 }
 
-.page6-left h3{
+.page6-left h3 {
     color: #767676;
     font-weight: 100;
     line-height: 26px;
 }
 
-.page7{
+.page7 {
     min-height: 90vh;
     width: 100%;
     display: flex;
@@ -796,7 +817,7 @@ table td:nth-child(2n) {
     padding-bottom: 10vw;
 }
 
-.page7-cards{
+.page7-cards {
     width: 25%;
     height: 45vh;
     border: 1px solid rgba(137, 150, 157, 0.271);
@@ -804,17 +825,17 @@ table td:nth-child(2n) {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px ;
+    padding: 0 30px;
     border-radius: 10px;
     padding-bottom: 30px;
 }
 
-.page7-cards:hover{
+.page7-cards:hover {
     box-shadow: rgba(137, 150, 157, 0.271) 0px 5px 15px 0px;
     transition: all .2s linear;
 }
 
-.page7-box{
+.page7-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -822,24 +843,24 @@ table td:nth-child(2n) {
     text-align: center;
 }
 
-.page7-box h3{
+.page7-box h3 {
     color: #353535;
 }
 
-.page7-box h4{
+.page7-box h4 {
     color: #767676;
     font-weight: 100;
     line-height: 20px;
 }
 
-.page7 h1{
+.page7 h1 {
     font-size: 40px;
     margin-bottom: 30px;
     width: 50%;
     text-align: center;
 }
 
-.page7 p{
+.page7 p {
     width: 65%;
     font-size: 1.2vw;
     margin-bottom: 3vw;
@@ -847,7 +868,7 @@ table td:nth-child(2n) {
     text-align: center;
 }
 
-.page8{
+.page8 {
     min-height: 60vh;
     padding: 10vw 11vw;
     padding-top: 0;
@@ -857,32 +878,32 @@ table td:nth-child(2n) {
     justify-content: center;
 }
 
-.page8-left{
+.page8-left {
     width: 50%;
     margin-right: 3vw;
 }
 
 
 
-.page8 h1{
+.page8 h1 {
     font-size: 2.6vw;
     line-height: 3vw;
     margin-bottom: 1.5vw;
 }
 
-.page8 h3{
+.page8 h3 {
     font-weight: 100;
     margin-bottom: 2vw;
     line-height: 25px;
 }
 
 
-.page8 img{
+.page8 img {
     width: 95%;
 }
 
 
-.awards-page{
+.awards-page {
     width: 100%;
     display: flex;
     align-items: center;
@@ -892,31 +913,31 @@ table td:nth-child(2n) {
     padding-top: 0;
 }
 
-.awards-page-left{
+.awards-page-left {
     width: 50%;
 }
 
-.awards-page-left h1{
+.awards-page-left h1 {
     font-size: 45px;
     margin-bottom: 30px;
     color: #353535;
 }
 
-.awards-page-left h3{
+.awards-page-left h3 {
     font-weight: 100;
     line-height: 30px;
     color: #767676;
     margin-bottom: 30px;
 }
 
-.awards-page-left a{
+.awards-page-left a {
     text-decoration: none;
     color: #346AF5;
     font-size: 18px;
 
 }
 
-.clients-page{
+.clients-page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -926,60 +947,62 @@ table td:nth-child(2n) {
     margin-bottom: 8vw;
 }
 
-.clients-page img{
+.clients-page img {
     width: 35%;
 }
 
-.clients-right{
+.clients-right {
     width: 40%;
 }
 
-.clients-page h1{
+.clients-page h1 {
     font-size: 45px;
     margin-bottom: 30px;
     color: #353535;
 }
 
-.clients-page h3{
+.clients-page h3 {
     font-weight: 100;
     color: #767676;
     line-height: 30px;
 }
 
-.partners-text{
+.partners-text {
     padding-left: 11vw;
     width: 50%;
     margin-bottom: 8vw;
 }
 
-.partners-text h1{
+.partners-text h1 {
     font-size: 3vw;
     margin-bottom: 2vw;
     color: #353535;
 }
-.partners-text h3{
-    color:#767676;
+
+.partners-text h3 {
+    color: #767676;
     font-weight: 100;
     line-height: 30px;
 }
 
-.loop{
+.loop {
     white-space: nowrap;
     overflow-x: auto;
     pointer-events: none;
 }
-.loop::-webkit-scrollbar{
+
+.loop::-webkit-scrollbar {
     display: none;
 }
 
-.loop img{
+.loop img {
     width: 8%;
     display: inline-block;
     margin-left: 8vw;
     filter: grayscale();
 }
 
-.moving-text{
+.moving-text {
     white-space: nowrap;
     display: flex;
     align-items: center;
@@ -989,11 +1012,12 @@ table td:nth-child(2n) {
     animation-iteration-count: infinite;
 }
 
-@keyframes move{
-    from{
+@keyframes move {
+    from {
         transform: translateX(0);
     }
-    to{
+
+    to {
         transform: translateX(-225%);
     }
 
@@ -1001,7 +1025,7 @@ table td:nth-child(2n) {
 
 
 
-.stories-page{
+.stories-page {
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -1009,17 +1033,17 @@ table td:nth-child(2n) {
     justify-content: center;
     flex-direction: column;
     gap: 2vw;
-    padding: 10vw 0 ;
+    padding: 10vw 0;
 }
 
-.swiper-slide img{
+.swiper-slide img {
     width: 100%;
     border-radius: 14px;
 }
 
 
 
-.swiper-slide h3{
+.swiper-slide h3 {
     font-size: 18px;
     line-height: 25px;
     font-weight: 100;
@@ -1027,36 +1051,36 @@ table td:nth-child(2n) {
     margin: 2vw;
 }
 
-.swiper-slide a{
+.swiper-slide a {
     text-decoration: none;
     margin: 2vw;
-    color: #118ae1 ;
+    color: #118ae1;
 
 }
 
 .swiper {
     width: 100%;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     border: 1px solid #65B5E2;
     border-radius: 15px;
     padding-bottom: 2vw;
-  }
+}
 
 
-.stories-page button{
+.stories-page button {
     font-size: 16px;
     padding: 1vw 1.4vw;
     margin-top: 5vw;
-} 
+}
 
-.stories-page h1{
+.stories-page h1 {
     font-size: 3vw;
     color: #353535;
 }
 
-.stories-page p{
+.stories-page p {
     color: #767676;
     font-weight: 100;
     font-size: 20px;
@@ -1068,7 +1092,7 @@ table td:nth-child(2n) {
     width: 75%;
 }
 
-.get-started-page{
+.get-started-page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1077,66 +1101,66 @@ table td:nth-child(2n) {
     gap: 50px;
 }
 
-.get-started-page-left{
+.get-started-page-left {
     width: 100%;
-    
+
 }
 
-.get-started-page img{
+.get-started-page img {
     width: 45%;
 }
 
-.get-started-page h1{
+.get-started-page h1 {
     font-size: 45px;
     color: #353535;
     margin-bottom: 30px;
 }
 
-.get-started-page h3{
+.get-started-page h3 {
     font-weight: 100;
     color: #767676;
     margin-bottom: 20px;
 }
 
-.get-started-page button{
+.get-started-page button {
     font-size: 16px;
     padding: 1.1vw 1.5vw;
     margin: 2vw 0;
 }
 
 
-.last-page{
+.last-page {
     background-color: #F5F9FF;
-    padding:1vw 11vw;
+    padding: 1vw 11vw;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8vw;
 }
 
-.last-page h1{
+.last-page h1 {
     font-size: 40px;
     color: #353535;
     margin-bottom: 30px;
 }
 
-.last-page h3{
+.last-page h3 {
     font-weight: 100;
     color: #767676;
     margin-bottom: 35px;
 }
 
-.last-page button i{
+.last-page button i {
     margin-right: 8px;
 }
 
-.last-page button{
+.last-page button {
     font-size: 16px;
     margin: 0;
     margin-right: 10px;
 }
 
-.final-page{
+.final-page {
     height: 90vh;
     padding: 8vw;
     width: 100%;
@@ -1147,65 +1171,65 @@ table td:nth-child(2n) {
     justify-content: space-between;
 }
 
-.final-page img{
+.final-page img {
     width: 40%;
     margin-bottom: 2vw;
 }
 
-.final-left p{
+.final-left p {
     line-height: 1.5vw;
     font-weight: 100;
     color: #9b9999;
 }
 
-.final-left .social{
+.final-left .social {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 1.5vw;
 }
 
-.final-left i{
- font-size: 1.5vw;
+.final-left i {
+    font-size: 1.5vw;
 }
 
-.final-left{
+.final-left {
     width: 30%;
 }
 
-.final-right{
+.final-right {
     display: flex;
     justify-content: space-between;
     gap: 2vw;
 }
 
-.final-right h2{
+.final-right h2 {
     text-transform: uppercase;
     margin: 1.5vw 0;
     letter-spacing: 1px;
 }
 
-.final-right h4{
+.final-right h4 {
     margin-bottom: 1vw;
     font-weight: 100;
     color: #9b9999;
 }
 
-.final-right h4:hover{
+.final-right h4:hover {
     color: #fff;
 }
 
-.social i:hover{
-   color: #c5c3c3;
+.social i:hover {
+    color: #c5c3c3;
 }
 
-.final-image{
+.final-image {
     display: flex;
     gap: 1.5vw;
     margin-top: 2vw;
 }
 
-.final-image img{
+.final-image img {
     width: 20%;
     gap: 1vw;
 }
