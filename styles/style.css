@@ -545,10 +545,9 @@ th+th {
     border-bottom-color: rgb(218, 234, 255);
 }
 
-.table-main,
 .main-table,
 .table-final {
-    max-width: 1250px;
+    max-width: 1550px;
     margin: 0 auto;
     margin-top: 0px;
     margin-top: 70px;
