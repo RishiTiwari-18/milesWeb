@@ -4,10 +4,14 @@ let vps = document.querySelector(".vps-page");
 let vpsBtn = document.querySelector(".vps");
 let about = document.querySelector(".about-page");
 let aboutBtn = document.querySelector(".about");
+let contact =document.querySelector(".contact-page")
+let contactBtn =document.querySelector(".contact-btn")
 
-const navButtons = [hostingBtn, vpsBtn, aboutBtn];
-const navCards = [hosting, vps, about];
-const flags = [1, 1, 1];
+
+
+const navButtons = [hostingBtn, vpsBtn, aboutBtn, contactBtn];
+const navCards = [hosting, vps, about, contact];
+const flags = [1, 1, 1, 1];
 
 function openCard() {
     ind = navButtons.indexOf(this);
@@ -38,8 +42,25 @@ function openCard() {
 hostingBtn.addEventListener("click", openCard);
 vpsBtn.addEventListener("click", openCard);
 aboutBtn.addEventListener("click", openCard);
+contactBtn.addEventListener("click", openCard)
 
 
 
 
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3.5,
+    spaceBetween: 50,
+    centeredSlides: true,
+  });
 
+
+
+  var swiper2 = new Swiper2(".mySwiper2", {
+    spaceBetween: 30,
+    slidesPerView: 3.5,
+    centeredSlides: true,
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false,
+    },
+  });  
