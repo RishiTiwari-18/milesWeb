@@ -272,6 +272,7 @@ button:hover {
 
 .guarantee {
     font-size: 15px;
+    line-height: 25px;
     margin-bottom: 3vw;
     box-sizing: border-box;
     font-family: 'Open Sans', Arial;
@@ -1335,4 +1336,60 @@ th:first-child {
 .final-image img {
     width: 20%;
     gap: 1vw;
+}
+
+
+/* wordpress page */
+
+.w-page2{
+    padding: 10vw;
+}
+
+.w-page2 h1{
+    font-size: 40px;
+    text-align: center;
+    color: #353535;
+}
+
+.w-page2 h3{
+    text-align: center;
+    font-weight: 100;
+    color: #545252;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+
+}
+
+.w-page2-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    gap: 2vw;
+}
+
+
+.w-page2-cards {
+    width: 35%;
+    padding: 2vw;
+    border: 1px solid rgba(17, 156, 225, 0.271);
+    border-radius: 20px;
+    
+}
+
+.w-page2-cards h2 {
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+    color: #119ce1;
+    font-size: 22px;
+}
+
+.w-page2-cards p {
+    line-height: 22px;
+    color: #767676;
+    font-size: 17px;
+}
+
+.w-page2-cards:hover {
+    box-shadow: rgba(17, 156, 225, 0.271) 0px 5px 15px 0px;
+    transition: all .2s linear;
 }
